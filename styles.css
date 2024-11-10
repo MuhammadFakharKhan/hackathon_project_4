@@ -1,0 +1,93 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+
+h1, h2, h3 {
+  text-align: left;
+}
+
+form > div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #28a745;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+}
+
+button {
+  display: inline-block;
+  width: 50%;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  ;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #28a745;
+  border:2px solid #28a745;
+  border-radius: 2px;
+}
+
+#resume-output {
+  margin-top: 30px;
+}
+
+.resume-section {
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  display:flex;
+  margin: 0 auto 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  border: 2px solid #28a745;
+}
+
+
+
+.editable {
+  cursor: pointer;
+  border-bottom: 1px dashed #ccc;
+}
+
+.editable:focus {
+  outline: none;
+  border-bottom: 1px solid #666;
+}
+ 
